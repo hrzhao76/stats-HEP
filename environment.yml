@@ -18,3 +18,4 @@ dependencies:
   - openssl
   - pre-commit
   - certifi
+  - seaborn
