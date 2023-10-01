@@ -1,6 +1,7 @@
 name: hep
 channels:
   - conda-forge
+  - bioconda
   - defaults
 dependencies:
   - python=3.10
@@ -19,3 +20,6 @@ dependencies:
   - pre-commit
   - certifi
   - seaborn
+  - iminuit
+  - pyhf
+prefix: /global/cfs/cdirs/atlas/hrzhao/Software/miniforge3/envs/hep
