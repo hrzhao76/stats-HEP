@@ -270,6 +270,14 @@ def calSigma_Cov(
     return sigma_mu
 
 
+def calZ0(p):
+    return stats.norm.isf(p)
+
+
+def calPvalue(Z0):
+    return stats.norm.sf(Z0)
+
+
 def drawnm(n_s: np.array, m_s: np.array) -> (plt.Figure, plt.Axes):
     n_bins = 50
     hist_2d = hist.Hist(
